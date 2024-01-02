@@ -1,10 +1,4 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import {
-  ClevertechLogo,
-  ConsultlyLogo,
-  JojoMobileLogo,
-  ParabolLogo
-} from "@/images/logos";
 
 export const RESUME_DATA = {
   name: "Hung (Ethan) Dinh S.",
@@ -53,7 +47,7 @@ export const RESUME_DATA = {
       link: "https://www.supremetech.vn/",
       badges: ["Onsite"],
       title: "Full Stack Developer",
-      logo: ParabolLogo,
+      logo: '',
       start: "Sep 2021",
       end: "Present",
       description:
@@ -64,7 +58,7 @@ export const RESUME_DATA = {
       link: "https://map.map4d.vn/",
       badges: ["Onsite", "Contract"],
       title: "Frontend Developer",
-      logo: ClevertechLogo,
+      logo: '',
       start: "Jul 2020",
       end: "Apr 2021",
       description:
@@ -75,7 +69,7 @@ export const RESUME_DATA = {
       link: "https://paraceltech.com/en/",
       badges: ["Internship"],
       title: "Java Backend Developer",
-      logo: JojoMobileLogo,
+      logo: '',
       start: "Jun 2019",
       end: "Aug 2019",
       description:
@@ -92,7 +86,7 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Quiz Online Realtime",
+      title: "Quiz Online",
       techStack: [
         "Side Project",
         "TypeScript",
@@ -102,10 +96,10 @@ export const RESUME_DATA = {
       ],
       description:
         "QuizOn is my graduation project at university. It is a website that allows users to take a real-time quiz.",
-      logo: ConsultlyLogo,
+      logo: '',
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "quizz.com",
+        href: "https://quizz.com/",
       },
     },
   ],
