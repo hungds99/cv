@@ -8,8 +8,7 @@ export const RESUME_DATA = {
     "https://google.com/maps/place/%C4%90%C3%A0+N%E1%BA%B5ng,+Vi%E1%BB%87t+Nam",
   about:
     "A Software Engineer focused on building products with extra attention to detail.",
-  summary: `I have over 3 years of experience working with both product and outsourcing IT companies, 
-  where I have successfully built numerous projects from scratch. As an engineer, I am always eager to learn new things. Currently, my focus lies in TypeScript, ReactJs, NodeJs, and Shopify development. I specialize in deploying products on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
+  summary: `With over 3 years of hands-on experience, I've actively contributed to various projects in both product and outsourcing IT companies, building solutions from the ground up. As an engineer, I am always eager to learn new things. Currently, my focus lies in TypeScript, ReactJs, NodeJs, and Shopify development. I specialize in deploying products on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
   avatarUrl: "https://avatars.githubusercontent.com/hungds99",
   personalWebsiteUrl: "https://hungds.space",
   contact: {
