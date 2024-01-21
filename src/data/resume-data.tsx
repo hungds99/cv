@@ -46,18 +46,29 @@ export const RESUME_DATA = {
       link: "https://www.supremetech.vn/",
       badges: ["Onsite"],
       title: "Full Stack Developer",
-      logo: '',
+      logo: "",
       start: "Sep 2021",
       end: "Present",
       description:
         "We built an application that allows organizations to manage multiple merchants on Shopify using Amazon Web Services (AWS) Serverless. Technologies: NodeJs, ReactJs, Shopify, GraphQL, AWS (Lambda, Api Gateway, S3, Cloudfront, DynamoDB, SQS ...)",
     },
     {
-      company: "IOTLink Coporation",
+      company: "Freelancer",
+      link: "https://www.supremetech.vn/",
+      badges: ["Remote"],
+      title: "Frontend Developer",
+      logo: "",
+      start: "Sep 2021",
+      end: "Present",
+      description:
+        "Collaborated with remote team members in seamlessly developing a customized UI dashboard for our valued US client.",
+    },
+    {
+      company: "IOTLink - Map4D",
       link: "https://map.map4d.vn/",
       badges: ["Onsite", "Contract"],
       title: "Frontend Developer",
-      logo: '',
+      logo: "",
       start: "Jul 2020",
       end: "Apr 2021",
       description:
@@ -68,7 +79,7 @@ export const RESUME_DATA = {
       link: "https://paraceltech.com/en/",
       badges: ["Internship"],
       title: "Java Backend Developer",
-      logo: '',
+      logo: "",
       start: "Jun 2019",
       end: "Aug 2019",
       description:
@@ -78,10 +89,10 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript/TypeScript",
     "React/Next.js/Remix",
-    "Node.js",
+    "Node.js/Express",
     "Java",
     "Spring MVC/Boot",
-    "AWS",
+    "AWS/Serverless Architecture",
   ],
   projects: [
     {
@@ -95,7 +106,7 @@ export const RESUME_DATA = {
       ],
       description:
         "QuizOn is my graduation project at university. It is a website that allows users to take a real-time quiz.",
-      logo: '',
+      logo: "",
       link: {
         label: "quizz.com",
         href: "https://quizz.com/",
