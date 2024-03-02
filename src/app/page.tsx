@@ -1,13 +1,13 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
-import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Section } from "@/components/ui/section";
+import { RESUME_DATA } from "@/data/resume-data";
+import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
@@ -42,7 +42,10 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                  <a
+                    href={`mailto:${RESUME_DATA.contact.email}`}
+                    target="_blank"
+                  >
                     <MailIcon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -54,7 +57,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank">
                     <PhoneIcon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -67,7 +70,7 @@ export default function Page() {
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="h-4 w-4" />
                   </a>
                 </Button>
@@ -75,12 +78,12 @@ export default function Page() {
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                <a href={`mailto:${RESUME_DATA.contact.email}`} target="_blank">
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
               ) : null}
               {RESUME_DATA.contact.tel ? (
-                <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank">
                   <span className="underline">{RESUME_DATA.contact.tel}</span>
                 </a>
               ) : null}
@@ -94,8 +97,11 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-            {RESUME_DATA.summary}
+          <p
+            className="text-pretty font-mono text-sm text-muted-foreground"
+            dangerouslySetInnerHTML={{ __html: RESUME_DATA.summary }}
+          >
+            {/* {RESUME_DATA.summary} */}
           </p>
         </Section>
         <Section>

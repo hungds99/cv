@@ -7,8 +7,12 @@ export const RESUME_DATA = {
   locationLink:
     "https://google.com/maps/place/%C4%90%C3%A0+N%E1%BA%B5ng,+Vi%E1%BB%87t+Nam",
   about:
-    "A Software Engineer focused on building products with extra attention to detail.",
-  summary: `With over 3 years of hands-on experience, I've actively contributed to various projects in both product and outsourcing IT companies, building solutions from the ground up. As an engineer, I am always eager to learn new things. Currently, my focus lies in TypeScript, ReactJs, NodeJs, and Shopify development. I specialize in deploying products on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
+    "A Software Engineer focused on building products and contributing to open source.",
+  summary: `With over 3 years of hands-on experience, 
+          I've actively contributed to various projects in both product and outsourcing IT companies, building solutions from the ground up. 
+          <br> As an engineer, I am always eager to learn new things. 
+          Currently, my focus lies in TypeScript, ReactJs, NodeJs, and Shopify development. 
+          I specialize in deploying products on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
   avatarUrl: "https://avatars.githubusercontent.com/hungds99",
   personalWebsiteUrl: "https://hungds.space",
   contact: {
@@ -50,7 +54,7 @@ export const RESUME_DATA = {
       start: "Sep 2021",
       end: "Present",
       description:
-        "We built an application that allows organizations to manage multiple merchants on Shopify using Amazon Web Services (AWS) Serverless. Technologies: NodeJs, ReactJs, Shopify, GraphQL, AWS (Lambda, Api Gateway, S3, Cloudfront, DynamoDB, SQS ...)",
+        "Streamlined e-commerce operations for organizations by building a Shopify multi-merchant management tool. This application simplifies store setup, facilitates product and inventory management, and provides insightful analytics across all stores.",
     },
     {
       company: "Freelancer",
@@ -61,7 +65,7 @@ export const RESUME_DATA = {
       start: "Sep 2021",
       end: "Present",
       description:
-        "Collaborated with remote team members in seamlessly developing a customized UI dashboard for our valued US client.",
+        "Collaborated effectively with remote team members to deliver a customized UI dashboard that exceeded our US client's expectations.",
     },
     {
       company: "IOTLink - Map4D",
@@ -72,7 +76,7 @@ export const RESUME_DATA = {
       start: "Jul 2020",
       end: "Apr 2021",
       description:
-        "Worked on the Map4D SDK to develop support functions for the map. Collaborated with the tool team to develop and improve the project management tool, reducing bug reporting time by 20%. Developed map manipulation functions with 3D objects that allowed users or admins to customize the map with content to display on the web.. Technologies: React, TypeScript, Material UI",
+        "Enhanced the Map4D SDK by developing essential support functions for the map interface. Collaborated closely with the tool team to streamline the project management process, resulting in a 20% reduction in bug reporting time. Additionally, I designed and implemented innovative map manipulation features that enable users and admins to customize the map with 3D objects and display dynamic content on the web.",
     },
     {
       company: "Paracel Technology Solutions",
@@ -83,7 +87,7 @@ export const RESUME_DATA = {
       start: "Jun 2019",
       end: "Aug 2019",
       description:
-        "I participated as a talented intern and built an e-commerce site selling clothes using Java and Spring MVC on my own. After that, I joined a restaurant management project as a key member to assist other interns in fixing bugs and launching the project. Technologies: Java, Spring MVC, Hibernate, MySQL, HTML, CSS, JavaScript",
+        "Adeptly built a full-fledged e-commerce website selling clothes from scratch during my internship, leveraging Java and Spring MVC. This project showcased my ability to independently design, develop, and deploy a functional web application. Subsequently, I moved to a restaurant management project, where I played a pivotal role in supporting fellow interns, troubleshooting bugs, and ensuring the project's successful launch.",
     },
   ],
   skills: [
