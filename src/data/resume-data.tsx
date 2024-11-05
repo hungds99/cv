@@ -11,8 +11,8 @@ export const RESUME_DATA = {
   summary: `With over 3 years of hands-on experience, 
           I've actively contributed to various projects in both product and outsourcing IT companies, building solutions from the ground up. 
           <br> As an engineer, I am always eager to learn new things. 
-          Currently, my focus lies in TypeScript, ReactJs, NodeJs, and Shopify development. 
-          I specialize in deploying products on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
+          Currently, my focus lies in Fullstack development TypeScript, ReactJs, NodeJs, and e-commerce domain. 
+          Many products deployed on AWS infrastructure using a Serverless architecture, which includes Lambda, API Gateway, S3, CloudFront, DynamoDB, SQS, and more.`,
   avatarUrl: "https://avatars.githubusercontent.com/hungds99",
   personalWebsiteUrl: "https://hungds.space",
   contact: {
@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       start: "Jul 2020",
       end: "Apr 2021",
       description:
-        "Enhanced the Map4D SDK by developing essential support functions for the map interface. Collaborated closely with the tool team to streamline the project management process, resulting in a 20% reduction in bug reporting time. Additionally, I designed and implemented innovative map manipulation features that enable users and admins to customize the map with 3D objects and display dynamic content on the web.",
+        "Enhanced the Map4D SDK by developing essential support functions for the map interface. Collaborated closely with the tool team to streamline the project management process, resulting in a 15% reduction in bug reporting time. Additionally, I designed and implemented innovative map manipulation features that enable users and admins to customize the map with 3D objects and display dynamic content on the web.",
     },
     {
       company: "Paracel Technology Solutions",
